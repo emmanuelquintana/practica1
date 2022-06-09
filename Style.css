@@ -1,0 +1,12 @@
+.campo{
+    border-radius: 20px;
+}
+
+.boton :hover{
+border-radius: 20px;    
+
+}
+
+.body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
