@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Sitio Emmanuel</title>
 <script src="/script.js"></script>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,700&display=swap');
+.campo{
+    border-radius: 20px;
+}
+
+.boton :hover{
+border-radius: 20px;    
+
+}
+
+.body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 </style>
 </head>
 <body>
@@ -20,8 +31,21 @@
 <br>
 <br>Apellido 
 <input id="apellido" class="campo" type="text">
-
-
+<br>
+<br>Telefono
+<input id="Telefono" class="campo" type="text">
+<br>
+<br>Direccion
+<input id="Direccion" class="campo" type="text">
+<br>
+<br>Color favorito
+<input type="text" name="" id="" class="campo">
+<br>
+<br>Tipo de Musica
+<input type="text" class="campo" name="Musica">
+<br>
+<BR>contraseña
+    <input type="password" class="campo">
 <input  class="boton" onclick="enviar()" type="button" value="Enviar">
 <script>
 
